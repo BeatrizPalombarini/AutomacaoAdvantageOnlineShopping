@@ -1,4 +1,5 @@
 #language: pt
+
 @HomePage
 Funcionalidade: HomePage
 
@@ -45,8 +46,3 @@ Funcionalidade: HomePage
   Cenário: 10 - Validar exibição do botão para login/cadastro
     Dado que eu esteja na homepage
     Então deverá ser exibido o botão login/cadastro
-
-  Cenário: 11 - Validar click no botão login/cadastro
-    Dado que eu esteja na homepage
-    Quando eu clicar no botão login/cadastro
-    Então deverá ser exibido o  modal login/cadastro
