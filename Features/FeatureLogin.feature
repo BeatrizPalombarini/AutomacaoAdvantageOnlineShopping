@@ -5,7 +5,7 @@ Funcionalidade: Login
 
   Cenário: 01 - Validar exibição modal de login ao clicar no botão login/cadastro
     Dado que eu esteja na homepage
-    Quando eu clicar no botão login\/cadastro
+    Quando eu clicar no botão login/cadastro
     Então deverá ser exibido o  modal login\/cadastro
 
   Cenário: 02 - Validar exibição do botão facebook
@@ -114,17 +114,12 @@ Funcionalidade: Login
     E inserir a senha nulo
     Então não deverá entrar na conta
 
-  Cenário: 21 Validar botão do facebook no modal login
+  Cenário: 21 - Validar botão do facebook no modal login
     Dado que eu esteja no modal login/cadastro
     Quando eu clicar no botão facebook
     Então deverá abrir o modal de login do facebook
 
-  Cenário: 22 Validar botão forgot your password?
+  Cenário: 22 - Validar botão forgot your password?
     Dado que eu esteja no modal login/cadastro
     Quando eu clicar no botão forgot your password?
     Então deverá ser redirecionado para a página de refedinição de senha
-
-  Cenário: 23 Validar botão create new account
-    Dado que eu esteja no modal login/cadastro
-    Quando eu clicar no botão create new account
-    Então deverá ser redirecionado para a página de criação de conta
