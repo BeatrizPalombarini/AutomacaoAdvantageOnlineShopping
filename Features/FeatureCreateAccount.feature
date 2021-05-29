@@ -1,6 +1,6 @@
 #language: pt
 
-  @CreateAccount
+@CreateAccount
 Funcionalidade: Create account
 
   Cenário: 01 - Validar acesso a página
@@ -45,7 +45,7 @@ Funcionalidade: Create account
     Então deverá ser exibido o input phone number
 
   Cenário: 11 - Validar exibição do texto address
-    Dado que eu esteja na página de criação de contao
+    Dado que eu esteja na página de criação de conta
     Então deverá ser exibido o texto address
 
   Cenário: 12 - Validar exibição do select country
@@ -90,7 +90,7 @@ Funcionalidade: Create account
     Então deverá ser exibido o botão receive
 
   Cenário: 20 - Validar exibição do botão already have an account?
-    Dado que eu esteja na página de criação de contao
+    Dado que eu esteja na página de criação de conta
     Quando eu abaixar a página
     Então deverá ser exibido o botão already have an account?
 

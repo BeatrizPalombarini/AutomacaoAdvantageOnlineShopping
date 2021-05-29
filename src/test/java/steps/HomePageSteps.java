@@ -18,12 +18,6 @@ public class HomePageSteps {
 
         }
 
-        @Dado("que eu esteja na homepage")
-        public void que_eu_esteja_na_homepage() {
-
-
-        }
-
         @Então("deverá ser exibido o botão our products")
         public void deverá_ser_exibido_o_botão_our_products() {
 
