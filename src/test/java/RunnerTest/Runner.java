@@ -7,8 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "Features", //Pasta onde estão localizadas as features
-        glue = {}, //Package onde estão localizados os steps
-        dryRun = true //Habilitar ou desabilitar 'Execução de testes'
+        glue = {"steps"}, //Package onde estão localizados os steps
+        dryRun = false //Habilitar ou desabilitar 'Execução de testes'
 )
 
 

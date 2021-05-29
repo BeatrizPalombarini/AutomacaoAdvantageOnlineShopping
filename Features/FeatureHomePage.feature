@@ -1,5 +1,5 @@
 #language: pt
-
+@HomePage
 Funcionalidade: HomePage
 
   Cenário: 01 - Validar acesso a página HomePage
