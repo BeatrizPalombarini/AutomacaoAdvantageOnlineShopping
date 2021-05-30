@@ -18,8 +18,8 @@ public class CreateAccountSteps {
 
     }
 
-    @Dado("que eu esteja na página de criação de conta")
-    public void que_eu_esteja_na_página_de_criação_de_conta() {
+    @Quando("for redirecionado para a página de criação de conta")
+    public void for_redirecionado_para_a_página_de_criação_de_conta() {
 
 
     }
