@@ -539,7 +539,7 @@ Funcionalidade: Create account
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E eu clicar no botão create new account
-    E for redirecionado para a página de criação de contaa
+    E for redirecionado para a página de criação de conta
     E inserir o username
     E inserir o email inválido
     E inserir a senha
