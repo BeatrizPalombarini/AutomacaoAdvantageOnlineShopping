@@ -15,7 +15,7 @@ public class BaseTest {
 
         //Verificando se o driver já foi instanciado.
         if(_driver == null){
-            //caso não esteja, vai instanciar um novo objeto de driver
+            //caso não, vai instanciar um novo objeto de driver
             _driver = new ChromeDriver();
         }
         //caso tenha, ele apenas retorna
@@ -24,7 +24,7 @@ public class BaseTest {
 
     //Função utilizada para acessar endereços
     public static void irPara(String url){
-        _driver.get(url);
+        getDriver().get(url);
     }
 
 }

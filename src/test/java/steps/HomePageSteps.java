@@ -1,15 +1,16 @@
 package steps;
 
+import Utils.BaseTest;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 
-public class HomePageSteps {
-
-        @Dado("que eu acesse a ULR")
-        public void que_eu_acesse_a_ulr() {
+public class HomePageSteps extends BaseTest {
 
 
+        @Dado("que eu esteja na homepage")
+        public void que_eu_esteja_na_homepage() {
+                irPara("http://advantageonlineshopping.com/#/");
         }
 
         @Então("deverá aparecer a página Advantage Shopping")

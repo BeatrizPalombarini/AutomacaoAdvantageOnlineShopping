@@ -1,10 +1,11 @@
 package steps;
 
+import Utils.BaseTest;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 
-public class LoginSteps {
+public class LoginSteps extends BaseTest {
 
     @Dado("que eu esteja na homepage")
     public void que_eu_esteja_na_homepage() {
@@ -12,20 +13,20 @@ public class LoginSteps {
 
     }
 
-    @Quando("eu clicar no botão login/cadastro")
+    @Quando("eu clicar no botão login\\/cadastro")
     public void eu_clicar_no_botão_login_cadastro() {
 
 
     }
 
-    @Então("deverá ser exibido o  modal login/cadastro")
+    @Então("deverá ser exibido o  modal login\\\\/cadastro")
     public void deverá_ser_exibido_o_modal_login_cadastro() {
 
 
     }
 
-    @Dado("que eu esteja no modal login/cadastro")
-    public void que_eu_esteja_no_modal_login_cadastro() {
+    @Quando("exibir o modal login\\/cadastro")
+    public void exibir_o_modal_login_cadastro() {
 
 
     }
@@ -72,8 +73,8 @@ public class LoginSteps {
 
     }
 
-    @Quando("eu inserir o username")
-    public void eu_inserir_o_username() {
+    @Quando("inserir o username")
+    public void inserir_o_username() {
 
 
     }
@@ -90,14 +91,20 @@ public class LoginSteps {
 
     }
 
+    @Quando("clicar no botão sing in")
+    public void clicar_no_botão_sing_in() {
+
+
+    }
+
     @Então("deverá entrar na conta")
     public void deverá_entrar_na_conta() {
 
 
     }
 
-    @Quando("eu inserir o username inválido")
-    public void eu_inserir_o_username_inválido() {
+    @Quando("inserir o username inválido")
+    public void inserir_o_username_inválido() {
 
 
     }
@@ -114,8 +121,8 @@ public class LoginSteps {
 
     }
 
-    @Quando("eu inserir o username nulo")
-    public void eu_inserir_o_username_nulo() {
+    @Quando("inserir o username nulo")
+    public void inserir_o_username_nulo() {
 
 
     }
@@ -144,20 +151,8 @@ public class LoginSteps {
 
     }
 
-    @Então("deverá ser redirecionado para a página de refedinição de senha")
-    public void deverá_ser_redirecionado_para_a_página_de_refedinição_de_senha() {
-
-
-    }
-
-    @Quando("eu clicar no botão create new account")
-    public void eu_clicar_no_botão_create_new_account() {
-
-
-    }
-
-    @Então("deverá ser redirecionado para a página de criação de conta")
-    public void deverá_ser_redirecionado_para_a_página_de_criação_de_conta() {
+    @Então("deverá ser redirecionado para a página de redefinição de senha")
+    public void deverá_ser_redirecionado_para_a_página_de_redefinição_de_senha() {
 
 
     }

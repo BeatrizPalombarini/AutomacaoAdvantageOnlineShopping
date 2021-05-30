@@ -4,7 +4,7 @@
 Funcionalidade: HomePage
 
   Cenário: 01 - Validar acesso a página HomePage
-    Dado que eu acesse a ULR
+    Dado que eu esteja na homepage
     Então deverá aparecer a página Advantage Shopping
 
   Cenário: 02 - Validar exibição do botão our products
