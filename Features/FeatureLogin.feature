@@ -14,17 +14,17 @@ Funcionalidade: Login
     E exibir o modal login/cadastro
     Então deverá ser exibido o botão facebook
 
-  Cenário: 03 - Validar exibição do input username
+  Cenário: 03 - Validar exibição do input username no login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    Então deverá ser exibido o input username
+    Então deverá ser exibido o input username no login
 
-  Cenário: 04 - Validar exibição do input password
+  Cenário: 04 - Validar exibição do input password no login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    Então deverá ser exibido o input password
+    Então deverá ser exibido o input password no login
 
   Cenário: 05 - Validar exibição do botão remember me
     Dado que eu esteja na homepage
@@ -54,8 +54,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username
-    E inserir a senha
+    E inserir o username no login
+    E inserir a senha no login
     E clicar no botão remember me
     E clicar no botão sing in
     Então deverá entrar na conta
@@ -64,8 +64,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username
-    E inserir a senha
+    E inserir o username no login
+    E inserir a senha no login
     E clicar no botão sing in
     Então deverá entrar na conta
 
@@ -73,8 +73,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username inválido
-    E inserir a senha
+    E inserir o username no login inválido
+    E inserir a senha no login
     E clicar no botão remember me
     E clicar no botão sing in
     Então não deverá entrar na conta
@@ -83,8 +83,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username inválido
-    E inserir a senha
+    E inserir o username no login inválido
+    E inserir a senha no login
     E clicar no botão sing in
     Então não deverá entrar na conta
 
@@ -92,8 +92,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username
-    E inserir a senha inválida
+    E inserir o username no login
+    E inserir a senha no login inválida
     E clicar no botão remember me
     E clicar no botão sing in
     Então não deverá entrar na conta
@@ -102,8 +102,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username
-    E inserir a senha inválida
+    E inserir o username no login
+    E inserir a senha no login inválida
     E clicar no botão sing in
     Então não deverá entrar na conta
 
@@ -111,8 +111,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username nulo
-    E inserir a senha
+    E inserir o username no login nulo
+    E inserir a senha no login
     E clicar no botão remember me
     E clicar no botão sing in
     Então não deverá entrar na conta
@@ -121,8 +121,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username nulo
-    E inserir a senha
+    E inserir o username no login nulo
+    E inserir a senha no login
     E clicar no botão sing in
     Então não deverá entrar na conta
 
@@ -130,8 +130,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username
-    E inserir a senha nulo
+    E inserir o username no login
+    E inserir a senha no login nulo
     E clicar no botão remember me
     E clicar no botão sing in
     Então não deverá entrar na conta
@@ -140,8 +140,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username
-    E inserir a senha nulo
+    E inserir o username no login
+    E inserir a senha no login nulo
     E clicar no botão sing in
     Então não deverá entrar na conta
 
@@ -149,8 +149,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username nulo
-    E inserir a senha nulo
+    E inserir o username no login nulo
+    E inserir a senha no login nulo
     E clicar no botão remember me
     E clicar no botão sing in
     Então não deverá entrar na conta
@@ -159,8 +159,8 @@ Funcionalidade: Login
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E exibir o modal login/cadastro
-    E inserir o username nulo
-    E inserir a senha nulo
+    E inserir o username no login nulo
+    E inserir a senha no login nulo
     E clicar no botão sing in
     Então não deverá entrar na conta
 

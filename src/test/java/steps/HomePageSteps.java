@@ -91,19 +91,19 @@ public class HomePageSteps extends BaseTest {
 
         }
 
-        @Então("deverá ser exibido o botão login\\/cadastro")
+        @Então("deverá ser exibido o botão login/cadastro")
         public void deverá_ser_exibido_o_botão_login_cadastro() {
 
 
         }
 
-        @Quando("eu clicar no botão login\\/cadastro")
+        @Quando("eu clicar no botão login/cadastro")
         public void eu_clicar_no_botão_login_cadastro() {
 
 
         }
 
-        @Então("deverá ser exibido o  modal login\\/cadastro")
+        @Então("deverá ser exibido o  modal login/cadastro")
         public void deverá_ser_exibido_o_modal_login_cadastro() {
 
 

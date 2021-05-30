@@ -7,24 +7,6 @@ import io.cucumber.java.pt.Quando;
 
 public class LoginSteps extends BaseTest {
 
-    @Dado("que eu esteja na homepage")
-    public void que_eu_esteja_na_homepage() {
-
-
-    }
-
-    @Quando("eu clicar no botão login\\/cadastro")
-    public void eu_clicar_no_botão_login_cadastro() {
-
-
-    }
-
-    @Então("deverá ser exibido o  modal login\\\\/cadastro")
-    public void deverá_ser_exibido_o_modal_login_cadastro() {
-
-
-    }
-
     @Quando("exibir o modal login\\/cadastro")
     public void exibir_o_modal_login_cadastro() {
 
@@ -37,14 +19,14 @@ public class LoginSteps extends BaseTest {
 
     }
 
-    @Então("deverá ser exibido o input username")
-    public void deverá_ser_exibido_o_input_username() {
+    @Então("deverá ser exibido o input username no login")
+    public void deverá_ser_exibido_o_input_username_no_login() {
 
 
     }
 
-    @Então("deverá ser exibido o input password")
-    public void deverá_ser_exibido_o_input_password() {
+    @Então("deverá ser exibido o input password no login")
+    public void deverá_ser_exibido_o_input_password_no_login() {
 
 
     }
@@ -73,14 +55,14 @@ public class LoginSteps extends BaseTest {
 
     }
 
-    @Quando("inserir o username")
-    public void inserir_o_username() {
+    @Quando("inserir o username no login")
+    public void inserir_o_username_no_login() {
 
 
     }
 
-    @Quando("inserir a senha")
-    public void inserir_a_senha() {
+    @Quando("inserir a senha no login")
+    public void inserir_a_senha_no_login() {
 
 
     }
@@ -103,8 +85,8 @@ public class LoginSteps extends BaseTest {
 
     }
 
-    @Quando("inserir o username inválido")
-    public void inserir_o_username_inválido() {
+    @Quando("inserir o username no login inválido")
+    public void inserir_o_username_no_login_inválido() {
 
 
     }
@@ -115,20 +97,20 @@ public class LoginSteps extends BaseTest {
 
     }
 
-    @Quando("inserir a senha inválida")
-    public void inserir_a_senha_inválida() {
+    @Quando("inserir a senha no login inválida")
+    public void inserir_a_senha_no_login_inválida() {
 
 
     }
 
-    @Quando("inserir o username nulo")
-    public void inserir_o_username_nulo() {
+    @Quando("inserir o username no login nulo")
+    public void inserir_o_username_no_login_nulo() {
 
 
     }
 
-    @Quando("inserir a senha nulo")
-    public void inserir_a_senha_nulo() {
+    @Quando("inserir a senha no login nulo")
+    public void inserir_a_senha_no_login_nulo() {
 
 
     }

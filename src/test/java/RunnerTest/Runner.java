@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = "Features", //Pasta onde estão localizadas as features
         glue = {"steps"}, //Package onde estão localizados os steps
-        tags = "@HomePage",
+        tags = "", //Para inserir apenas a tag que deseja testar
         dryRun = false //Habilitar ou desabilitar 'Execução de testes'
 )
 

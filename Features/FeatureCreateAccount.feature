@@ -4,8 +4,9 @@
 Funcionalidade: Create account
 
   Cenário: 01 - Validar acesso a página
-    Dado que eu esteja no modal login/cadastro
-    Quando eu clicar no botão create new account
+    Dado que eu esteja na homepage
+    Quando eu clicar no botão login/cadastro
+    E eu clicar no botão create new account
     Então deverá ser redirecionado para a página de criação de conta
 
   Cenário: 02 - Validar exibição do texto account details
@@ -50,48 +51,39 @@ Funcionalidade: Create account
 
   Cenário: 12 - Validar exibição do select country
     Dado que eu esteja na página de criação de conta
-    Quando eu abaixar a página
-    E eu clicar no select country
+    Quando eu clicar no select country
     Então deverá ser exibido o modal de opções de pais
 
   Cenário: 13 - Validar exibição do input city
     Dado que eu esteja na página de criação de conta
-    Quando eu abaixar a página
     Então deverá ser exibido o input city
 
   Cenário: 14 - Validar exibição do input state/province/region
     Dado que eu esteja na página de criação de conta
-    Quando eu abaixar a página
     Então deverá ser exibido o input state/province/region
 
   Cenário: 15 - Validar exibição do input address
     Dado que eu esteja na página de criação de conta
-    Quando eu abaixar a página
     Então deverá ser exibido o input address
 
   Cenário: 16 - Validar exibição do input postal code
     Dado que eu esteja na página de criação de conta
-    Quando eu abaixar a página
     Então deverá ser exibido o input postal code
 
   Cenário: 17 - Validar exibição do botão agree
     Dado que eu esteja na página de criação de conta
-    Quando eu abaixar a página
     Então deverá ser exibido o botão agree
 
   Cenário: 18 - Validar exibição do botão register
     Dado que eu esteja na página de criação de conta
-    Quando eu abaixar a página
     Então deverá ser exibido o botão register
 
   Cenário: 19 - Validar exibição do botão receive
     Dado que eu esteja na página de criação de conta
-    Quando eu abaixar a página
     Então deverá ser exibido o botão receive
 
   Cenário: 20 - Validar exibição do botão already have an account?
     Dado que eu esteja na página de criação de conta
-    Quando eu abaixar a página
     Então deverá ser exibido o botão already have an account?
 
   Cenário: 21 - Validar acesso de conta com todos os dados válidos e os botões receive e agree selecionados

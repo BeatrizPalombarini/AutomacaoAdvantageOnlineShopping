@@ -6,6 +6,18 @@ import io.cucumber.java.pt.Quando;
 
 public class CreateAccountSteps {
 
+    @Quando("eu clicar no botão create new account")
+    public void eu_clicar_no_botão_create_new_account() {
+
+
+    }
+
+    @Então("deverá ser redirecionado para a página de criação de conta")
+    public void deverá_ser_redirecionado_para_a_página_de_criação_de_conta() {
+
+
+    }
+
     @Dado("que eu esteja na página de criação de conta")
     public void que_eu_esteja_na_página_de_criação_de_conta() {
 
@@ -20,6 +32,18 @@ public class CreateAccountSteps {
 
     @Então("deverá ser exibido o input email")
     public void deverá_ser_exibido_o_input_email() {
+
+
+    }
+
+    @Então("deverá ser exibido o input username")
+    public void deverá_ser_exibido_o_input_username() {
+
+
+    }
+
+    @Então("deverá ser exibido o input password")
+    public void deverá_ser_exibido_o_input_password() {
 
 
     }
@@ -60,14 +84,44 @@ public class CreateAccountSteps {
 
     }
 
-    @Quando("eu abaixar a página")
-    public void eu_abaixar_a_página() {
+    @Quando("eu clicar no select country")
+    public void eu_clicar_no_select_country() {
 
 
     }
 
-    @Quando("eu clicar no select country")
-    public void eu_clicar_no_select_country() {
+    @Quando("inserir o username")
+    public void inserir_o_username() {
+
+
+    }
+
+    @Quando("inserir a senha")
+    public void inserir_a_senha() {
+
+
+    }
+
+    @Quando("inserir o username inválido")
+    public void inserir_o_username_inválido() {
+
+
+    }
+
+    @Quando("inserir a senha inválida")
+    public void inserir_a_senha_inválida() {
+
+
+    }
+
+    @Quando("inserir o username nulo")
+    public void inserir_o_username_nulo() {
+
+
+    }
+
+    @Quando("inserir a senha nulo")
+    public void inserir_a_senha_nulo() {
 
 
     }
