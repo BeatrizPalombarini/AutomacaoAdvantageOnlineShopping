@@ -2,8 +2,9 @@
 
 @CreateAccount
 Funcionalidade: Create account
+	
 
-  Cenário: 01 - Validar acesso a página
+	Cenário: 01 - Validar acesso a página
     Dado que eu esteja na homepage
     Quando eu clicar no botão login/cadastro
     E eu clicar no botão create new account
