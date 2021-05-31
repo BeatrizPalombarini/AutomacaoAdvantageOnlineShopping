@@ -13,13 +13,14 @@ import junit.framework.Assert;
 
 public class HomePageSteps extends BaseTest {
 
-	// Importando páginas
+	// Page Objects
 	HomePagePO homepage = new HomePagePO();
 
 	@Dado("que eu esteja na homepage")
 	public void que_eu_esteja_na_homepage() {
 		irPara("http://advantageonlineshopping.com/#/");
-		Assert.assertTrue("Falha ao tentar visualizar o primeiro container da Home Page.", homepage.checkContainerMainHomePage());
+		Assert.assertTrue("Falha ao tentar visualizar o primeiro container da Home Page.",
+				homepage.checkContainerMainHomePage());
 
 	}
 
