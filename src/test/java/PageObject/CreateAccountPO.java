@@ -99,6 +99,17 @@ public class CreateAccountPO extends Helper{
     @CacheLookup
     private WebElement btnAlreadyHaveAnAccount;
     
+    @FindBy(xpath = "//label[contains(text(),'New user created successfully')]")
+    @CacheLookup
+    private WebElement msgCadastroSucesso;
+  
+
+    @FindBy(xpath = "//label[contains(text(),'Registration failed. Please try again.')]")
+    @CacheLookup
+    private WebElement msgCadastroFalha;
+    
+
+    
 
     private String usernameValido = "Keeggo"; 
     private String emailValido = "@keeggo.com"; 
@@ -391,6 +402,34 @@ public class CreateAccountPO extends Helper{
 	public void clickBtnRegister() {
 		waitForElement(btnRegister);
 		btnRegister.click();
+	}
+
+	public boolean checkInputCountry() {
+		//Verificando exibição do input city
+		waitForElement(selectCountry);
+		return selectCountry.isDisplayed();
+	}
+
+	public void clickAlreadyHaveAnAccount() {
+		waitForElement(btnAlreadyHaveAnAccount);
+		btnAlreadyHaveAnAccount.click();
+		
+	}
+
+	public void clickBtnReceive() {
+		waitForElement(btnReceive);
+		btnReceive.click();
+		
+	}
+	
+	public boolean checkCadastroSucesso() {
+		waitForElement(msgCadastroSucesso);
+		return msgCadastroSucesso.isDisplayed();
+	}
+	
+	public boolean checkCadastroFalha() {
+		waitForElement(msgCadastroFalha);
+		return msgCadastroFalha.isDisplayed();
 	}
 
 
